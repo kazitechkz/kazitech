@@ -34,7 +34,7 @@
                             </div>
                         </div>
                         <div class="img">
-                            <img src="assets/imgs/team/team-kaz-itech.jpg" alt="">
+                            <img src="assets/imgs/team/team-kaz-itech.png" alt="">
                         </div>
                     </div>
                 </header>
@@ -45,7 +45,7 @@
 
                 <!-- ==================== Start intro ==================== -->
 
-                <section class="intro section-padding position-re">
+                <section class="intro section-padding position-re" data-scroll-index="1">
                     <div class="container">
                         <div class="row justify-content-between">
                             <div class="col-lg-6">
@@ -59,7 +59,7 @@
                                         </span>
                                         <span class="sideup-text">
                                             <span class="up-text"> Вы можете легко связаться с нами, кликнув  <span class="underline"><a
-                                                        href="page-contact3.html"
+                                                        data-scroll-nav="6"
                                                         class="main-color">здесь</a></span></span>
                                         </span>
                                     </h4>
@@ -200,14 +200,14 @@
 
                 <!-- ==================== Start Services ==================== -->
 
-                <section class="services section-padding">
+                <section class="services section-padding" data-scroll-index="2">
                     <div class="container">
                         <div class="sec-head mb-80">
                             <h6 class="sub-title main-color mb-25">Наши решения</h6>
                             <div class="bord pt-25 bord-thin-top d-flex align-items-center">
                                 <h2 class="fw-600 d-rotate wow">
-                                    <span class="rotate-text">Разнобразные IT <span class="fw-200">
-                                            Сервисы.</span></span>
+                                    <span class="rotate-text">НАШИ IT <span class="fw-200">
+                                            РЕШЕНИЯ.</span></span>
                                 </h2>
                                 <div class="ml-auto">
                                     <div class="swiper-arrow-control">
@@ -352,7 +352,7 @@
 
                 <!-- ==================== Start Portfolio ==================== -->
 
-                <section class="inter-fixed-text section-padding">
+                <section class="inter-fixed-text section-padding" data-scroll-index="3">
                     <div class="container">
                         <div class="sec-head mb-80">
                             <h6 class="sub-title main-color mb-25">Одни из наших проектов</h6>
@@ -362,190 +362,400 @@
                                 </h2>
                             </div>
                         </div>
-                        <div class="gallery row stand-marg">
-                            <div class="col-lg-4 col-md-6 items design brand">
-                                <div class="item mt-40">
-                                    <div class="img">
-                                        <img src="assets/imgs/works/stand/1.jpg" alt="">
-                                        <div class="cont d-flex align-items-center">
-                                            <div>
-                                                <h5 class="fz-22">
-                                                    <a href="project2.html">Aevoe</a>
-                                                </h5>
-                                                <p>
-                                                    <a href="project2.html">Branding</a>
-                                                </p>
+                    </div>
+                    <header class="full-showcase">
+                        <div class="swiper-container parallax-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/2.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">ПЛАТФОРМА IU</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="ml-auto">
-                                                <a href="project2.html" class="ti-arrow-top-right"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/3.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">ПЛАТФОРМА ZHASYL SHYM</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/27.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">Автоматизация</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/20.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">ПЛАТФОРМА Visit Shymkent</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/21.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">Проект Jasyl El</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/22.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">Приложение Национального Музея Казахстана</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/23.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">Сервис принятия на военную службу Jauynger.kz</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/25.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">Корпоративное решение TemirTransService</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/26.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">Корпоративное решение Бюро Национальной Статистики</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/4.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">LMS ПЛАТФОРМЫ</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/5.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">JAS QALAM - ЖУРНАЛИСТИКА</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/6.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">JAS QALAM - ЖУРНАЛИСТИКА</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/7.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">Учебные платформы</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/8.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">Медиаплатформы и интернет магазины</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/9.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">Новостной блог</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/10.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">Арт Галереи</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/11.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">БЛОГИ</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/12.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">ЛОГИСТИКА</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/14.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">Решения для HR</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/17.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">Janaru</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/18.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">JasCongress</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/19.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">Metanet Education</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/16.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">Блокчейн Технологии</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-img valign" data-background="assets/imgs/portfolio/24.png" data-overlay-dark="3">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-11 offset-lg-1">
+                                                    <div class="caption">
+                                                        <h1>
+                                                                <span data-swiper-parallax="-2000">Множество других проектов: QazaqGreen,KazAtom и др.</span>
+                                                        </h1>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 items brand marketing">
-                                <div class="item mt-40">
-                                    <div class="img">
-                                        <img src="assets/imgs/works/stand/2.jpg" alt="">
-                                        <div class="cont d-flex align-items-center">
-                                            <div>
-                                                <h5 class="fz-22">
-                                                    <a href="project2.html">Digital Design</a>
-                                                </h5>
-                                                <p>
-                                                    <a href="project2.html">Branding</a>
-                                                </p>
-                                            </div>
-                                            <div class="ml-auto">
-                                                <a href="project2.html" class="ti-arrow-top-right"></a>
-                                            </div>
-                                        </div>
+
+                            <!-- slider setting -->
+                            <div class="swiper-controls">
+                                <div class="swiper-button-next swiper-nav-ctrl cursor-pointer">
+                                    <div>
+                                        <span>Следующий слайд</span>
+                                    </div>
+                                    <div><i class="fas fa-chevron-right"></i></div>
+                                </div>
+                                <div class="swiper-button-prev swiper-nav-ctrl cursor-pointer">
+                                    <div><i class="fas fa-chevron-left"></i></div>
+                                    <div>
+                                        <span>Предыдущий слайд</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 items art design">
-                                <div class="item mt-40">
-                                    <div class="img">
-                                        <img src="assets/imgs/works/stand/3.jpg" alt="">
-                                        <div class="cont d-flex align-items-center">
-                                            <div>
-                                                <h5 class="fz-22">
-                                                    <a href="project2.html">Nice guy</a>
-                                                </h5>
-                                                <p>
-                                                    <a href="project2.html">Photography</a>
-                                                </p>
-                                            </div>
-                                            <div class="ml-auto">
-                                                <a href="project2.html" class="ti-arrow-top-right"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 items brand">
-                                <div class="item mt-40">
-                                    <div class="img">
-                                        <img src="assets/imgs/works/stand/4.jpg" alt="">
-                                        <div class="cont d-flex align-items-center">
-                                            <div>
-                                                <h5 class="fz-22">
-                                                    <a href="project2.html">Digital Design</a>
-                                                </h5>
-                                                <p>
-                                                    <a href="project2.html">Branding</a>
-                                                </p>
-                                            </div>
-                                            <div class="ml-auto">
-                                                <a href="project2.html" class="ti-arrow-top-right"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 items design">
-                                <div class="item mt-40">
-                                    <div class="img">
-                                        <img src="assets/imgs/works/stand/5.jpg" alt="">
-                                        <div class="cont d-flex align-items-center">
-                                            <div>
-                                                <h5 class="fz-22">
-                                                    <a href="project2.html">Digital Design</a>
-                                                </h5>
-                                                <p>
-                                                    <a href="project2.html">Branding</a>
-                                                </p>
-                                            </div>
-                                            <div class="ml-auto">
-                                                <a href="project2.html" class="ti-arrow-top-right"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 items art marketing">
-                                <div class="item mt-40">
-                                    <div class="img">
-                                        <img src="assets/imgs/works/stand/6.jpg" alt="">
-                                        <div class="cont d-flex align-items-center">
-                                            <div>
-                                                <h5 class="fz-22">
-                                                    <a href="project2.html">Digital Design</a>
-                                                </h5>
-                                                <p>
-                                                    <a href="project2.html">Branding</a>
-                                                </p>
-                                            </div>
-                                            <div class="ml-auto">
-                                                <a href="project2.html" class="ti-arrow-top-right"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 items design marketing">
-                                <div class="item mt-40">
-                                    <div class="img">
-                                        <img src="assets/imgs/works/stand/7.jpg" alt="">
-                                        <div class="cont d-flex align-items-center">
-                                            <div>
-                                                <h5 class="fz-22">
-                                                    <a href="project2.html">Digital Design</a>
-                                                </h5>
-                                                <p>
-                                                    <a href="project2.html">Branding</a>
-                                                </p>
-                                            </div>
-                                            <div class="ml-auto">
-                                                <a href="project2.html" class="ti-arrow-top-right"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 items brand">
-                                <div class="item mt-40">
-                                    <div class="img">
-                                        <img src="assets/imgs/works/stand/8.jpg" alt="">
-                                        <div class="cont d-flex align-items-center">
-                                            <div>
-                                                <h5 class="fz-22">
-                                                    <a href="project2.html">Digital Design</a>
-                                                </h5>
-                                                <p>
-                                                    <a href="project2.html">Branding</a>
-                                                </p>
-                                            </div>
-                                            <div class="ml-auto">
-                                                <a href="project2.html" class="ti-arrow-top-right"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 items art">
-                                <div class="item mt-40">
-                                    <div class="img">
-                                        <img src="assets/imgs/works/stand/9.jpg" alt="">
-                                        <div class="cont d-flex align-items-center">
-                                            <div>
-                                                <h5 class="fz-22">
-                                                    <a href="project2.html">Digital Design</a>
-                                                </h5>
-                                                <p>
-                                                    <a href="project2.html">Branding</a>
-                                                </p>
-                                            </div>
-                                            <div class="ml-auto">
-                                                <a href="project2.html" class="ti-arrow-top-right"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </header>
+                    <div class="container mt-40">
+                        <div class="sec-bottom mt-100">
+                            <div class="main-bg d-flex align-items-center">
+                                <p>Вы также можете скачать наше портфолио.</p>
+                                <a href="/assets/KAZITECH.pdf" download class="butn main-color ml-40 underline">
+                                    <span>Скачать</span>
+                                </a>
                             </div>
                         </div>
                     </div>
-
                 </section>
 
                 <!-- ==================== End Portfolio ==================== -->
@@ -557,7 +767,7 @@
 
                 <!-- ==================== Start Team ==================== -->
 
-                <section class="team section-padding">
+                <section class="team section-padding" data-scroll-index="4">
                     <div class="container">
                         <div class="sec-head mb-80">
                             <h6 class="sub-title main-color mb-25">Наша команда</h6>
@@ -569,7 +779,7 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-3 my-2">
-                                <div class="item md-mb50">
+                                <div class="item">
                                     <div class="img">
                                         <img src="assets/imgs/team/1.png" alt="">
                                         <div class="info">
@@ -593,12 +803,12 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 my-2">
-                                <div class="item md-mb50">
+                                <div class="item">
                                     <div class="img">
                                         <img src="assets/imgs/team/2.png" alt="">
                                         <div class="info">
                                             <span class="fz-12">Full Stack Разработчик / CTO</span>
-                                            <h6 class="fz-18">Ширинов Абай</h6>
+                                            <h6 class="fz-18">Абай Ширинов</h6>
                                         </div>
                                     </div>
                                     <div class="social">
@@ -666,107 +876,110 @@
 
 
 
-                <!-- ==================== Start Blog ==================== -->
-
-                <section class="blog-list-half section-padding sub-bg">
-                    <div class="container">
-                        <div class="sec-head mb-80">
-                            <h6 class="sub-title main-color mb-25">Our Blog</h6>
-                            <div class="bord pt-25 bord-thin-top d-flex align-items-center">
-                                <h2 class="fw-600 d-rotate wow">
-                                    <span class="rotate-text">Read Latest <span class="fw-200">News</span></span>
-                                </h2>
-                                <div class="ml-auto">
-                                    <a href="blog-list2.html" class="go-more">
-                                        <span class="text">View all posts</span>
-                                        <span class="icon ti-arrow-top-right"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="item main-bg md-mb50">
-                                    <div class="row rest">
-                                        <div class="col-lg-6 col-md-5 img rest">
-                                            <img src="assets/imgs/blog/b/2.jpg" alt="" class="img-post">
-                                            <div class="author d-flex align-items-center">
-                                                <div>
-                                                    <div class="fit-img icon-img-50 circle">
-                                                        <img src="assets/imgs/blog/author.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="ml-15 fz-14">
-                                                    <div><span class="opacity-7">Posted by</span><br>UI-ThemeZ</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-7 cont valign">
-                                            <div class="full-width">
-                                                <div class="tags mb-15">
-                                                    <a href="blog-list.html">Marketing</a>
-                                                </div>
-                                                <h5>
-                                                    <a href="blog-details.html">Free advertising for your online
-                                                        business.</a>
-                                                </h5>
-                                                <span class="date fz-12 ls1 text-u opacity-7 mt-80">August 6,
-                                                    2022</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="item main-bg">
-                                    <div class="row rest">
-                                        <div class="col-lg-6 col-md-5 img rest">
-                                            <img src="assets/imgs/blog/b/3.jpg" alt="" class="img-post">
-                                            <div class="author d-flex align-items-center">
-                                                <div>
-                                                    <div class="fit-img icon-img-50 circle">
-                                                        <img src="assets/imgs/blog/author.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="ml-15 fz-14">
-                                                    <div><span class="opacity-7">Posted by</span><br>UI-ThemeZ</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-7 cont valign">
-                                            <div class="full-width">
-                                                <div class="tags mb-15">
-                                                    <a href="blog-list.html">Marketing</a>
-                                                    <a href="blog-list.html">Design</a>
-                                                </div>
-                                                <h5>
-                                                    <a href="blog-details.html">Business meeting 2023 in San
-                                                        Francisco.</a>
-                                                </h5>
-                                                <span class="date fz-12 ls1 text-u opacity-7 mt-80">August 6,
-                                                    2022</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <!-- ==================== Start Brands ==================== -->
+                <div class="container">
+                    <div class="my-skills section-padding bord-thin-top">
+                    <div class="sec-head mb-50">
+                        <h3>На чем мы <span class="fw-200">Работаем</span></h3>
                     </div>
-                </section>
+                    <div class="row">
+                        <div class="col-md-6 my-3">
+                            <div class="item py-3 h-100">
+                                <div class="d-flex align-items-center mb-30 align-content-center align-items-center h-100">
+                                    <div class="mr-30">
+                                        <div class="img icon-img-40">
+                                            <img src="assets/imgs/resume/s1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h6 class="fz-18">UI / UX Design</h6>
+                                        <small class="my-3">
+                                            Работа с применение современных графических решений включая 3d моделирование: Figma, Blender,
+                                            3Ds Max, Adobe Photoshop, Lumion
+                                        </small>
+                                    </div>
+                                </div>
+                                <span class="value">100%</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <div class="item py-3 h-100">
+                                <div class="d-flex align-items-center mb-30 align-content-center align-items-center h-100">
+                                    <div class="mr-30">
+                                        <div class="img icon-img-40">
+                                            <img src="assets/imgs/resume/s2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h6 class="fz-18">Web & Mobile Development</h6>
+                                        <small class="my-3">
+                                            Создание гибких решений с современной монолитной или микросервисной архитектурой с использованием современных ЯП и Фреймворков включая:<br>
+                                            -C# (ASP.NET в т.ч WEB API,Blazor и т.д 5.0 и выше)<br/>
+                                            -PHP (8.0 и выше, Laravel,YII,Symphony, поддержка CMS) <br/>
+                                            -Python (FastApi, Django, Flask) <br/>
+                                            -Go (Fiber, Goravel, Gorilla) <br/>
+                                            -JS&TS (Node, Express, Alpine,Angular 12 and higher, Vue 2 - 3, React, Nuxt) <br/>
+                                            -Dart (Flutter IOS&ANDROID) <br/>
+                                        </small>
+                                    </div>
+                                </div>
+                                <span class="value">100%</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <div class="item py-3 h-100">
+                                <div class="d-flex align-items-center mb-30 align-content-center align-items-center h-100">
+                                    <div class="mr-30">
+                                        <div class="img icon-img-40">
+                                            <img src="assets/imgs/resume/s6.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h6 class="fz-18">AI & ML</h6>
+                                        <small class="my-3">
+                                            Работа с применением машинного обучения, анализа данных и ИИ:<br/>
+                                            -Numpy, Pandas, Matplotlib,Seaborn,TensorFlow,OpenAi,OpenCV и др.<br/>
+                                        </small>
+                                    </div>
+                                </div>
+                                <span class="value">100%</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 my-3">
+                            <div class="item py-3 h-100">
+                                <div class="d-flex align-items-center mb-30 align-content-center align-items-center h-100">
+                                    <div class="mr-30">
+                                        <div class="img icon-img-40">
+                                            <img src="assets/imgs/resume/s3.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h6 class="fz-18">Цифровые решения</h6>
+                                        <small class="my-3">
+                                            Техническая поддержка существующих проектов, создание систем с использованием датчиков: <br/>
+                                            -В т.ч решений связанных с поднятием и администрированием вэб-серверов Apache & Nginx<br/>
+                                            -Создание автоматизации с внедрением датчиков и сенсоров<br/>
+                                            -Использование современных облачных решений и технология Amazon,Google,Tuya,Яндекс<br/>
+                                        </small>
+                                    </div>
+                                </div>
+                                <span class="value">100%</span>
+                            </div>
+                        </div>
 
-                <!-- ==================== End Blog ==================== -->
+                    </div>
+                </div>
+                </div>
 
-
+                <!-- ==================== End Brands ==================== -->
 
                 <!-- ==================== Start clients ==================== -->
 
-                <section class="clients-carso section-padding pt-0 sub-bg">
+                <section class="clients-carso section-padding pt-0 sub-bg" data-scroll-index="5">
                     <div class="container">
                         <div class="sec-bottom mb-100">
                             <div class="sub-bg d-flex align-items-center">
-                                <h6 class="fz-14 fw-400">More than <span class="fw-600">200+ companies</span>
-                                    trusted us
-                                    worldwide</h6>
+                                <h6 class="fz-14 fw-400">Мы <span class="fw-600">сотрудничаем и нам доверяют</span></h6>
                             </div>
                         </div>
                         <div class="swiper5" data-carousel="swiper" data-items="5" data-loop="true" data-space="40">
@@ -776,38 +989,152 @@
                                     <div class="swiper-slide">
                                         <div class="item">
                                             <div class="img icon-img-100">
-                                                <img src="assets/imgs/brands/b1.png" alt="">
+                                                <img src="assets/imgs/partners/shymkent.png" alt="">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="item">
                                             <div class="img icon-img-100">
-                                                <img src="assets/imgs/brands/b2.png" alt="">
+                                                <img src="assets/imgs/partners/kyndelik.png" alt="">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="item">
                                             <div class="img icon-img-100">
-                                                <img src="assets/imgs/brands/b3.png" alt="">
+                                                <img src="assets/imgs/partners/kazgisa.png" alt="">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="item">
                                             <div class="img icon-img-100">
-                                                <img src="assets/imgs/brands/b4.png" alt="">
+                                                <img src="assets/imgs/partners/freedom.png" alt="">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="item">
                                             <div class="img icon-img-100">
-                                                <img src="assets/imgs/brands/b6.png" alt="">
+                                                <img src="assets/imgs/partners/jasyl_el.png" alt="">
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <div class="img icon-img-100">
+                                                <img src="assets/imgs/partners/qazstat.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <div class="img icon-img-100">
+                                                <img src="assets/imgs/partners/kazatomprom.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <div class="img icon-img-100">
+                                                <img src="assets/imgs/partners/vizorlabs.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <div class="img icon-img-100">
+                                                <img src="assets/imgs/partners/amazon.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <div class="img icon-img-100">
+                                                <img src="assets/imgs/partners/tuya.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <div class="img icon-img-100">
+                                                <img src="assets/imgs/partners/remaster.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <div class="img icon-img-100">
+                                                <img src="assets/imgs/partners/google.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <div class="img icon-img-100">
+                                                <img src="assets/imgs/partners/jusan.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <div class="img icon-img-100">
+                                                <img src="assets/imgs/partners/nu.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <div class="img icon-img-100">
+                                                <img src="assets/imgs/partners/auezov.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <div class="img icon-img-100">
+                                                <img src="assets/imgs/partners/druzbi.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <div class="img icon-img-100">
+                                                <img src="assets/imgs/partners/tinkoff.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <div class="img icon-img-100">
+                                                <img src="assets/imgs/partners/blockchain.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <div class="img icon-img-100">
+                                                <img src="assets/imgs/partners/tts.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <div class="img icon-img-100">
+                                                <img src="assets/imgs/partners/army.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item">
+                                            <div class="img icon-img-100">
+                                                <img src="assets/imgs/partners/jascongress.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+
                                 </div>
                             </div>
                         </div>
@@ -815,109 +1142,161 @@
                 </section>
 
                 <!-- ==================== End clients ==================== -->
-
-
-
             </main>
 
+            <!-- ==================== Start Contact ==================== -->
 
+            <section class="contact section-padding" id="6" data-scroll-index="6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="cal-action pb-50 mb-80 bord-thin-bottom">
+                                <h2 class="fz-96 line-height-1 d-rotate wow">
+                            <span class="rotate-text">Напишите нам! <span
+                                        class="ml-30 fz-35 ti-arrow-top-right"></span></span>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 valign">
+                            <div class="sec-head info-box full-width md-mb80">
+                                <div class="phone fz-30 fw-600 underline main-color">
+                                    <a href="tel:+77075001710" class="underline">
+                                        <span class="fz-22 main-color">+77075001710</span>
+                                    </a><br/>
+                                    <a href="tel:+77064205961" class="underline">
+                                        <span class="fz-22 main-color">+77064205961</span>
+                                    </a><br/>
+                                </div>
+                                <div class="morinfo mt-50 pb-30 bord-thin-bottom">
+                                    <h6 class="mb-15">Адрес</h6>
+                                    <p>Республика Казахстан, г. Шымкент, ул. Утегенова 46</p>
+                                </div>
+                                <div class="morinfo mt-30 pb-30 bord-thin-bottom">
+                                    <h6 class="mb-15">Email</h6>
+                                    <p>kazitech2023@gmail.com</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-7 offset-lg-1 valign">
+                            <div class="full-width">
+                                <div class="sec-head mb-50">
+                                    <h6 class="sub-title main-color mb-15">Давайте сотрудничать</h6>
+                                    <h3 class="text-u ls1">Отправить <span class="fw-200">письмо</span></h3>
+                                </div>
+                                <form id="my-form" class="form2">
+
+                                    <div class="messages"></div>
+
+                                    <div class="controls row">
+
+                                        <div class="col-lg-6">
+                                            <div class="form-group mb-30">
+                                                <input id="form_name" type="text" name="name" placeholder="ФИО"
+                                                       required="required">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <div class="form-group mb-30">
+                                                <input id="form_email" type="email" name="email" placeholder="Email"
+                                                       required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group mb-30">
+                                                <input id="phone-number" type="text" name="phone" placeholder="+7"
+                                                       required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-group mb-30">
+                                                <input id="form_subject" type="text" name="subject"
+                                                       placeholder="Тема письма">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                    <textarea id="form_message" name="message" placeholder="Сообщение"
+                                                              rows="4" required="required"></textarea>
+                                            </div>
+                                            <div class="mt-30">
+                                                <button id="sendMail" type="submit" class="butn butn-full butn-bord radius-30">
+                                                    <span class="text">Отправить</span>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==================== End Contact ==================== -->
             <!-- ==================== Start Footer ==================== -->
 
             <footer class="clean-footer crev bg-img" data-background="assets/imgs/header/bg1.jpg"
                     data-overlay-dark="10">
                 <div class="container pb-40 section-padding ontop">
-                    <div class="cal-action pb-50 mb-80 bord-thin-bottom">
-                        <h2 class="fz-120 line-height-1 d-rotate wow">
-                            <span class="rotate-text"><a href="page-contact3.html">Let’s Contact <span
-                                        class="ml-30 fz-70 ti-arrow-top-right"></span></a></span>
-                        </h2>
-                    </div>
                     <div class="row">
-                        <div class="col-lg-3">
+                        <div class="col-lg-6">
                             <div class="logo icon-img-100">
-                                <img src="assets/imgs/logo-light.png" alt="">
+                                <img src="assets/imgs/logo-white.png" alt="">
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-3">
                             <div class="column">
                                 <div class="mb-40">
-                                    <h6 class="sub-title mb-30">Address</h6>
-                                    <h5 class="opacity-8">5919 Trussville <br> Crossings Pkwy, Birmingham</h5>
+                                    <h6 class="sub-title mb-30">Контакты</h6>
+                                    <h5 class="opacity-8">г. Шымкент <br> ул. Утегенова 46</h5>
                                 </div>
+                                <div class="mb-40">
+                                    <h6 class="sub-title mb-30">Телефоны</h6>
+                                    <a href="tel:+77075001710" class="underline">
+                                        <span class="fz-22 main-color">+77075001710</span>
+                                    </a><br/>
+                                    <a href="tel:+77064205961" class="underline">
+                                        <span class="fz-22 main-color">+77064205961</span>
+                                    </a><br/>
+                                    <a href="tel:+77064205961" class="underline">
+                                        <span class="fz-22 main-color">+77064171796</span>
+                                    </a><br/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="column">
+                                <div class="mb-40">
+                                    <h6 class="sub-title mb-30">Почта</h6>
+                                    <a href="mailto:kazitech2023@gmail.com" class="underline">
+                                        <span class="fz-22 main-color">kazitech2023@gmail.com</span>
+                                    </a><br/>
+                                </div>
+                                <div class="mb-40">
+                                    <h6 class="sub-title mb-30">WhatsApp</h6>
+                                    <a target="_blank" href="https:://wa.me/77075001710" class="underline">
+                                        <span class="fz-22 main-color">+77075001710</span>
+                                    </a><br/>
+                                    <a target="_blank" href="https:://wa.me/77064205961" class="underline">
+                                        <span class="fz-22 main-color">+77064205961</span>
+                                    </a><br/>
+                                    <a target="_blank" href="https:://wa.me/77064171796" class="underline">
+                                        <span class="fz-22 main-color">+77064171796</span>
+                                    </a><br/>
+                                </div>
+                            </div>
+                        </div>
 
-                                <a href="#0" class="underline">
-                                    <span class="fz-22 main-color">+2 456 (343) 24 45</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 offset-lg-1">
-                            <div class="column">
-                                <h6 class="sub-title mb-30">Useful Links</h6>
-                                <ul class="rest fz-14">
-                                    <li class="mb-15">
-                                        <a href="page-about.html">About</a>
-                                    </li>
-                                    <li class="mb-15">
-                                        <a href="page-services.html">Services</a>
-                                    </li>
-                                    <li class="mb-15">
-                                        <a href="blog-list2.html">Blog</a>
-                                    </li>
-                                    <li>
-                                        <a href="page-contact.html">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-2">
-                            <div class="column">
-                                <h6 class="sub-title mb-30">Support</h6>
-                                <ul class="rest fz-14">
-                                    <li class="mb-15">
-                                        <a href="page-FAQS.html">FAQS</a>
-                                    </li>
-                                    <li class="mb-15">
-                                        <a href="page-about.html">Term & Conditions</a>
-                                    </li>
-                                    <li class="mb-15">
-                                        <a href="page-about.html">Privacy policy</a>
-                                    </li>
-                                    <li>
-                                        <a href="page-about.html">Help</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
                     </div>
                     <div class="d-flex align-items-center pt-30 pb-30 mt-80 bord-thin-top">
                         <div>
-                            <ul class="rest d-flex align-items-center">
-                                <li class="hover-this cursor-pointer">
-                                    <a href="#0" class="hover-anim">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
-                                <li class="hover-this cursor-pointer ml-30">
-                                    <a href="#0" class="hover-anim">
-                                        <i class="fab fa-dribbble"></i>
-                                    </a>
-                                </li>
-                                <li class="hover-this cursor-pointer ml-30">
-                                    <a href="#0" class="hover-anim">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                </li>
-                                <li class="hover-this cursor-pointer ml-30">
-                                    <a href="#0" class="hover-anim">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="ml-auto">
-                            <p class="fz-14">© 2023 InFolio is Proudly Powered by <span class="underline main-color"><a
-                                        href="https://themeforest.net/user/ui-themez"
-                                        target="_blank">UI-ThemeZ</a></span>
+                            <p class="fz-14">© 2024 ТОО "KAZ ITECH"
                             </p>
                         </div>
                     </div>
@@ -931,3 +1310,55 @@
 
     </div>
 @endsection
+@push("js")
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/imask"></script>
+
+    <script>
+        const element = document.getElementById('phone-number');
+        const maskOptions = {
+            mask: '+{7}(000)000-00-00'
+        };
+        const mask = IMask(element, maskOptions);
+    </script>
+    <script>
+        $('#my-form').on('submit', function(e) {
+            e.preventDefault();
+            $("#sendEmail").prop("disabled",true);
+            $("#sendEmail").text("Отправка сообщения");
+            $.ajax({
+                type: 'POST',
+                url: '/api/send-mail',
+                data: {
+                    name: $('input[name=name]').val(),
+                    email: $('input[name=email]').val(),
+                    phone: $('input[name=phone]').val(),
+                    subject: $('input[name=subject]').val(),
+                    message: $('textarea[name=message]').val(),
+                },
+                success: function(response) {
+                    $('#my-form')[0].reset();
+                    $("#sendEmail").prop("disabled",false);
+                    $("#sendEmail").text("Оставить заявку");
+                    Swal.fire({
+                        title: 'Ура!',
+                        text: 'Спасибо! Наш менеджер свяжется с Вами',
+                        icon: 'success',
+                        confirmButtonText: 'Ок'
+                    })
+                },
+                error: function(response) {
+                    $('#my-form')[0].reset();
+                    $("#sendEmail").prop("disabled",false);
+                    $("#sendEmail").text("Оставить заявку");
+                    Swal.fire({
+                        title: 'Упсс!',
+                        text: 'Что-то пошло не так, напишите нам по +77075001710',
+                        icon: 'error',
+                        confirmButtonText: 'Ок'
+                    })
+                }
+            });
+        });
+    </script>
+@endpush

@@ -7,17 +7,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="keywords" content="HTML5 Template Infolio Multi-Purpose themeforest">
-    <meta name="description" content="Infolio - Multi-Purpose HTML5 Template">
-    <meta name="author" content="">
+    <meta name="keywords" content="KAZ ITECH, IT Компания, Создание сайтов в Казахстане, Создание Мобильных приложений, Техподдержка, Автоматизация, AI в Казахстане, ML в Казахстане ">
+    <meta name="description" content="KAZ ITECH - комплексные IT решения для вашего бизнеса, от создания мобильного приложения, сайта до автоматизации в Казахстане">
+    <meta name="author" content="ТОО KAZ ITECH">
 
     <!-- Title  -->
-    <title>Infolio</title>
+    <title>KAZ ITECH</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/imgs/favicon.ico">
     <base href="/">
     @include("components.style")
+    @stack("css")
 
 </head>
 
@@ -61,8 +62,7 @@
 
 
 @include("components.script")
-
-
+@stack("js")
 
 
 

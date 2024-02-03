@@ -6194,6 +6194,7 @@ footer.clean-footer.crev:before {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   position: relative;
+    word-break: break-all;
 }
 
 .my-skills .item .value {

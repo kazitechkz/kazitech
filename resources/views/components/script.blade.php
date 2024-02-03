@@ -6,4 +6,5 @@
 <script src="{{asset('assets/js/ScrollTrigger.min.js')}}"></script>
 <script src="{{asset('assets/js/smoother-script.js')}}"></script>
 <script src="{{asset('assets/js/scripts.js')}}"></script>
+
 {{--<script src="{{asset('js/app.js')}}" defer></script>--}}
