@@ -33,8 +33,8 @@
                                 <h1>IT РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
                             </div>
                         </div>
-                        <div class="img">
-                            <img src="assets/imgs/team/team-kaz-itech.png" alt="">
+                        <div class="img flex justify-content-center my-3">
+                            <img style="max-width: 600px" src="assets/imgs/logo-white.png" alt="">
                         </div>
                     </div>
                 </header>
@@ -743,14 +743,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-pagination"></div>
+                            <div class="swiper-pagination bg-black p-3 radius-20"></div>
                         </div>
                     </header>
                     <div class="container mt-40">
                         <div class="sec-bottom mt-100">
                             <div class="main-bg d-flex align-items-center">
-                                <p>Вы также можете скачать наше портфолио.</p>
-                                <a href="/assets/KAZITECH.pdf" download class="butn main-color ml-40 underline">
+                                <p class="text-xl h3 mb-0">Вы также можете скачать наше портфолио.</p>
+                                <a href="/assets/KAZITECH.pdf" download class="butn main-color ml-40 underline h3 mb-0">
                                     <span>Скачать</span>
                                 </a>
                             </div>
@@ -770,10 +770,9 @@
                 <section class="team section-padding" data-scroll-index="4">
                     <div class="container">
                         <div class="sec-head mb-80">
-                            <h6 class="sub-title main-color mb-25">Наша команда</h6>
                             <div class="bord pt-25 bord-thin-top d-flex align-items-center">
                                 <h2 class="fw-600 d-rotate wow">
-                                    <span class="rotate-text">Встречайте <span class="fw-200">нашу команду</span></span>
+                                    <span class="rotate-text"> <span class="fw-200">Наша команда</span></span>
                                 </h2>
                             </div>
                         </div>
@@ -1171,7 +1170,7 @@
                                 </div>
                                 <div class="morinfo mt-50 pb-30 bord-thin-bottom">
                                     <h6 class="mb-15">Адрес</h6>
-                                    <p>Республика Казахстан, г. Шымкент, ул. Утегенова 46</p>
+                                    <p>Республика Казахстан, пр-т. Мангилик Ел. 55/8, Астана 020000</p>
                                 </div>
                                 <div class="morinfo mt-30 pb-30 bord-thin-bottom">
                                     <h6 class="mb-15">Email</h6>
@@ -1254,7 +1253,7 @@
                             <div class="column">
                                 <div class="mb-40">
                                     <h6 class="sub-title mb-30">Контакты</h6>
-                                    <h5 class="opacity-8">г. Шымкент <br> ул. Утегенова 46</h5>
+                                    <h5 class="opacity-8">Республика Казахстан, <br>  пр-т. Мангилик Ел. 55/8, Астана 020000</h5>
                                 </div>
                                 <div class="mb-40">
                                     <h6 class="sub-title mb-30">Телефоны</h6>
